@@ -1,10 +1,10 @@
 // ==UserScript==
-// @name            网页二维码识别
-// @name:zh-CN      网页二维码识别
+// @name            网页二维码识别（旧版脚本）
+// @name:zh-CN      网页二维码识别（旧版脚本）
 // @namespace       https://github.com/1275389313/open_qrcode
-// @version         1.0.0
-// @description     在网页图片上右键识别二维码，显示文字或链接，并可复制。
-// @description:zh-CN 在网页图片上右键识别二维码，显示文字或链接，并可复制。
+// @version         1.0.1
+// @description     旧版暴力猴脚本，会挡住浏览器原来的右键菜单。请改用本仓库的浏览器扩展。
+// @description:zh-CN 旧版暴力猴脚本，会挡住浏览器原来的右键菜单。请改用本仓库的浏览器扩展。
 // @author          1275389313
 // @license         MIT
 // @match           *://*/*
@@ -17,9 +17,9 @@
 // @require         https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.js
 // @homepageURL     https://github.com/1275389313/open_qrcode
 // @supportURL      https://github.com/1275389313/open_qrcode/issues
-// @downloadURL     https://raw.githubusercontent.com/1275389313/open_qrcode/main/qrcode-reader.user.js
-// @updateURL       https://raw.githubusercontent.com/1275389313/open_qrcode/main/qrcode-reader.user.js
 // ==/UserScript==
+
+// 已不再作为安装方式。请安装仓库里的浏览器扩展，使用系统右键菜单中的「识别二维码」。
 
 (function () {
   'use strict';

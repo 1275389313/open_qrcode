@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "网页二维码识别",
+  "version": "2.0.0",
+  "description": "在图片上右键，用浏览器自带菜单识别二维码。识别在本地完成。",
+  "homepage_url": "https://github.com/1275389313/open_qrcode",
+  "minimum_chrome_version": "116",
+  "permissions": ["contextMenus", "scripting", "storage"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "src/background.js"
+  },
+  "action": {
+    "default_title": "网页二维码识别：在图片上右键，选择「识别二维码」",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "open-qrcode@1275389313.github.io",
+      "strict_min_version": "128.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}
